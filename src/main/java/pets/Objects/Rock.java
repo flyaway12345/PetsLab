@@ -1,6 +1,6 @@
 package pets.Objects;
 
-public class Rock extends Pets  implements Comparable {
+public class Rock extends Pets {
     public Rock(String name){
         super(name);
     }
@@ -9,6 +9,6 @@ public class Rock extends Pets  implements Comparable {
     }
     @Override
     public String toString() {
-        return "Pets";
+        return "Rock";
     }
 }

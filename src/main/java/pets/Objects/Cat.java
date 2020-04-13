@@ -1,6 +1,6 @@
 package pets.Objects;
 
-public class Cat extends Pets implements Comparable {
+public class Cat extends Pets{
     public Cat(String name){
         super(name);
     }
